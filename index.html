@@ -13,16 +13,16 @@
             <nav>
                 <img class="logo" src=".vscode/src/images/CRO Logo.png" Charlie Rene Otsatalu's logo/>
                 <ul>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Contact me</li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact me</a></li>
                 </ul>
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>C. Rene Otsatalu</h1>
                     <p>Full Stack Developer</p>
-                    <div class="button"> About me</div>
+                    <div class="button"><a href="#about-me">About me</a></div>
                 </div>
                 <div class="socials">
                     <div><a href="https://www.linkedin.com/in/charlie-rene-bb0339239/" class="social">
@@ -37,16 +37,51 @@
                 </div>
             </div>
         </section>
-        <section class="sub-section">
+        <section class="sub-section" id="about-me">
             <div class="information">
                 <h2>About Me</h2>
-                <p>Hello. My name is Charlie Rene Otsatalu. I am a upcoming Software Developer and Leathermaker with a passion for learning new information</p>
+                <p>Hello. My name is Charlie Rene Otsatalu. I am a upcoming Software Developer and Leathermaker with a passion for learning new information.</p>
             </div>
-            <div class="headshot"></div>
+            <div class="headshot-container">
+                <img class="headshot" src=".vscode/src/images/headshotresized03.jpg" alt="Charlie Rene Otsatalu headshot"/>
+            </div>
         </section>
-        <section class="sub-section"></section>
-        <footer></footer>
-
-        <script src=".vscode/src/app.js"></script>
+        <section class="sub-section-alternative" id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src=".vscode/src/images/Project 1.png" alt="Project One Image"/>
+                    <h3>Project One</h3>
+                    <p class="subtext">This Is my project and some text about it. I enjoyed working on this project.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="https://www.github.com/BlackCrowLtd">View Here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src=".vscode/src/images/Project 2.png" alt="Project Two Image"/>
+                    <h3>Project Two</h3>
+                    <p class="subtext">This Is my project and some text about it. I enjoyed working on this project.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="https://www.github.com/BlackCrowLtd">View Here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src=".vscode/src/images/Project 3.png" alt="Project Three Image"/>
+                    <h3>Project Three</h3>
+                    <p class="subtext">This Is my project and some text about it. I enjoyed working on this project.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="https://www.github.com/BlackCrowLtd">View Here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src=".vscode/src/images/Project 4.png" alt="Project Four Image"/>
+                    <h3>Project Four</h3>
+                    <p class="subtext">This Is my project and some text about it. I enjoyed working on this project.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="https://www.github.com/BlackCrowLtd">View Here</a></p>
+                </div>
+            </div>
+        </section>
+        <footer id="contact-me">
+            <h2>Contact me</h2>
+            <p>rene.otsatalu@gmail.com</p>
+        </footer>
     </body>
 </html>
